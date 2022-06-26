@@ -9,11 +9,8 @@ import {MultiDataSet, Label, Color} from "ng2-charts";
 })
 export class Grafica1Component{
 
-  public doughnutChartLabels: Label[] = [ 'Download Sales', 'In-Store Sales', 'Mail-Order Sales' ];
-  public doughnutChartData: MultiDataSet = [
-       [ 350, 450, 100 ],
-    ];
-  public color:Color[]=[
-    {backgroundColor:['#6857E6', '#009FEE','#F02059']}
+  public labels1: string []=[ 'Pan', 'Refrescos', 'Comida' ];
+  public data1: MultiDataSet = [
+    [ 15, 30, 30 ],
   ];
 }
